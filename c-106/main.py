@@ -20,7 +20,7 @@ def find_correlation(data):
     print(c[0,1])
 
 def plotFigure(data):
-    fig = px.scatter(data, x=data['x'], y=data['y'])
+    fig = px.scatter(x=data['x'], y=data['y'])
     fig.show()
 
 def main():
